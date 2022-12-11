@@ -31,7 +31,6 @@ export class UserregComponent {
         if(response.status == "success"){
           console.log(response)
           alert("User Registration Successfull")
-          this.route.navigate(["/userLogin"])
         }else{
           alert("User Registration Failed")
         }
