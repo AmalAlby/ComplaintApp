@@ -11,6 +11,8 @@ import { UserregComponent } from './userreg/userreg.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { AdmnavbarComponent } from './admnavbar/admnavbar.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const myRoutes:Routes = [
   {
@@ -42,7 +44,9 @@ const myRoutes:Routes = [
     DashComponent,
     UserloginComponent,
     UserprofileComponent,
-    UserregComponent
+    UserregComponent,
+    AdmnavbarComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
